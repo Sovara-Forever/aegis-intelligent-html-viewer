@@ -1,0 +1,167 @@
+{
+  "dealer": "RC Chrysler Dodge Jeep RAM",
+  "domain": "https://www.gorcauto.com/",
+  "source": "Meet-The-Staff Page Extraction",
+  "extraction_date": "2026-03-26",
+  "staff_directory": {
+    "ownership": [
+      {
+        "name": "Rich Fagley",
+        "title": "Owner",
+        "department": "Executive Leadership",
+        "years_with_dealer": "15+",
+        "specialization": "Dealer Operations, Customer Relations"
+      }
+    ],
+    "management": [
+      {
+        "name": "Roger Wood",
+        "title": "General Sales Manager",
+        "department": "Sales Management",
+        "phone": "304-714-2632",
+        "specialization": "New & Used Vehicle Sales, Fleet Sales"
+      },
+      {
+        "name": "Sean Broadbent",
+        "title": "Sales Manager",
+        "department": "Sales Management",
+        "specialization": "Jeep & RAM Truck Sales"
+      },
+      {
+        "name": "Phil Faulkner",
+        "title": "Sales Manager",
+        "department": "Sales Management",
+        "specialization": "Dodge Performance Vehicles, Inventory Management"
+      },
+      {
+        "name": "Steve Harrington",
+        "title": "Finance Manager",
+        "department": "Finance & Insurance",
+        "phone": "304-714-2632",
+        "specialization": "Auto Financing, Extended Warranties, F&I Products"
+      }
+    ],
+    "service_parts_leadership": [
+      {
+        "name": "Rick Maddock",
+        "title": "Services & Parts Director",
+        "department": "Service & Parts",
+        "phone": "304-714-4052",
+        "specialization": "Mopar Service, Parts Operations"
+      },
+      {
+        "name": "Gary Garrison",
+        "title": "Service Manager",
+        "department": "Service Department",
+        "phone": "304-714-4052",
+        "specialization": "Factory-Trained Technicians, Warranty Service"
+      },
+      {
+        "name": "Rick Henry",
+        "title": "Parts Manager",
+        "department": "Parts Department",
+        "phone": "304-714-3269",
+        "specialization": "Genuine Mopar Parts, Accessories"
+      },
+      {
+        "name": "Terry Foden, Jr.",
+        "title": "Shop Foreman",
+        "department": "Service Department",
+        "specialization": "Diagnostics, Technician Training"
+      }
+    ],
+    "administrative": [
+      {
+        "name": "Jennifer Copestick",
+        "title": "Office Manager",
+        "department": "Administration",
+        "specialization": "Customer Accounts, Dealer Operations"
+      },
+      {
+        "name": "Carolyn Hoyt",
+        "title": "Receptionist",
+        "department": "Customer Service",
+        "specialization": "Customer Relations, Appointment Scheduling"
+      },
+      {
+        "name": "Amy Fike",
+        "title": "Receptionist",
+        "department": "Customer Service",
+        "specialization": "Front Desk Operations, Call Routing"
+      }
+    ],
+    "sales_consultants": [
+      {
+        "name": "Doug Wells",
+        "title": "Sales Consultant",
+        "department": "Sales",
+        "specialization": "New & Used Vehicle Sales"
+      },
+      {
+        "name": "Mark Williams",
+        "title": "Sales Consultant",
+        "department": "Sales",
+        "specialization": "New & Used Vehicle Sales"
+      }
+    ],
+    "technicians": [
+      {
+        "name": "Terry Folden, Sr.",
+        "title": "Technician",
+        "department": "Service",
+        "certification": "Mopar Factory Trained"
+      },
+      {
+        "name": "Chris Johnson",
+        "title": "Technician",
+        "department": "Service",
+        "certification": "ASE Certified"
+      },
+      {
+        "name": "Andrew 'Tiny' Lamp",
+        "title": "Technician",
+        "department": "Service",
+        "certification": "Mopar Factory Trained"
+      },
+      {
+        "name": "Logan Lowe",
+        "title": "Technician",
+        "department": "Service",
+        "certification": "ASE Certified"
+      },
+      {
+        "name": "Devin Mercer",
+        "title": "Technician",
+        "department": "Service",
+        "certification": "Mopar Factory Trained"
+      },
+      {
+        "name": "Greg Peters",
+        "title": "Technician",
+        "department": "Service",
+        "certification": "Diesel Specialist"
+      },
+      {
+        "name": "Gage Williams",
+        "title": "Technician",
+        "department": "Service",
+        "certification": "Mopar Factory Trained"
+      }
+    ]
+  },
+  "service_advisors": [
+    {
+      "name": "Jaime Lowe",
+      "title": "Service Advisor",
+      "department": "Service",
+      "phone": "304-714-4052",
+      "specialization": "Service Recommendations, Maintenance Scheduling"
+    }
+  ],
+  "dealer_contact": {
+    "address": "845 Washington St, Newell, WV 26050",
+    "sales_phone": "304-714-2632",
+    "service_phone": "304-714-4052",
+    "parts_phone": "304-714-3269"
+  }
+}

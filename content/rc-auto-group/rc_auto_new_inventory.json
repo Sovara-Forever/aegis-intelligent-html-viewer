@@ -1,0 +1,150 @@
+{
+  "dealer": "RC Chrysler Dodge Jeep RAM",
+  "domain": "https://www.gorcauto.com/",
+  "source": "ShadowForge CSV Extraction",
+  "extraction_date": "2026-03-26",
+  "inventory_type": "new",
+  "total_vehicles": 106,
+  "vehicles": [
+    {
+      "year": 2026,
+      "make": "Jeep",
+      "model": "Compass",
+      "trim": "Latitude Altitude 4x4",
+      "msrp": 32590,
+      "sale_price": 24844,
+      "discount": 7746,
+      "discount_percent": 23.8,
+      "lead_score": "deep_discount",
+      "dealer_conversion_url": "https://www.gorcauto.com/inventory/display/new/2026/Jeep/Compass/3C4NJDBN5TT160093/",
+      "image_url": "https://images.otf3.pixelmotiondemo.com/364x273/juHw4-20260105203824.jpg"
+    },
+    {
+      "year": 2026,
+      "make": "Jeep",
+      "model": "Compass",
+      "trim": "Limited 4x4",
+      "msrp": 34530,
+      "sale_price": 26772,
+      "discount": 7758,
+      "discount_percent": 22.5,
+      "lead_score": "deep_discount",
+      "dealer_conversion_url": "https://www.gorcauto.com/inventory/display/new/2026/Jeep/Compass/3C4NJDCN6TT175071/",
+      "image_url": "https://images.otf3.pixelmotiondemo.com/364x273/S5T8o-20260105210035.jpg"
+    },
+    {
+      "year": 2026,
+      "make": "Jeep",
+      "model": "Compass",
+      "trim": "Trailhawk 4x4",
+      "msrp": 35985,
+      "sale_price": 27563,
+      "discount": 8422,
+      "discount_percent": 23.4,
+      "lead_score": "deep_discount",
+      "dealer_conversion_url": "https://www.gorcauto.com/inventory/display/new/2026/Jeep/Compass/3C4NJDDN4TT170854/",
+      "image_url": "https://images.otf3.pixelmotiondemo.com/364x273/tPQwf-20260105203250.jpg"
+    },
+    {
+      "year": 2026,
+      "make": "Jeep",
+      "model": "Wrangler",
+      "trim": "2-door Sport",
+      "msrp": 39985,
+      "sale_price": 32996,
+      "discount": 6989,
+      "discount_percent": 17.5,
+      "lead_score": "hot_deal",
+      "dealer_conversion_url": "https://www.gorcauto.com/inventory/display/new/2026/Jeep/Wrangler/1C4PJXAN0TW205589/",
+      "image_url": "https://images.otf3.pixelmotiondemo.com/364x273/LNLFJ-20260105203558.jpg"
+    },
+    {
+      "year": 2026,
+      "make": "Jeep",
+      "model": "Gladiator",
+      "trim": "Sport 4x4",
+      "msrp": 43315,
+      "sale_price": 36211,
+      "discount": 7104,
+      "discount_percent": 16.4,
+      "lead_score": "hot_deal",
+      "dealer_conversion_url": "https://www.gorcauto.com/inventory/display/new/2026/Jeep/Gladiator/1C6PJTAG4TL159896/",
+      "image_url": "https://images.otf3.pixelmotiondemo.com/364x273/Me9sR-20260105204011.jpg"
+    },
+    {
+      "year": 2025,
+      "make": "Jeep",
+      "model": "Grand Cherokee",
+      "trim": "Laredo X 4x4",
+      "msrp": 41780,
+      "sale_price": 30184,
+      "discount": 11596,
+      "discount_percent": 27.8,
+      "lead_score": "deep_discount",
+      "dealer_conversion_url": "https://www.gorcauto.com/inventory/display/new/2025/Jeep/Grand-Cherokee/1C4RJHAGXSC361218/",
+      "image_url": "https://images.otf3.pixelmotiondemo.com/364x273/pcL8H-20260117175249.jpg"
+    },
+    {
+      "year": 2025,
+      "make": "RAM",
+      "model": "1500",
+      "trim": "Big Horn 4x4 5'7' Box",
+      "msrp": 58835,
+      "sale_price": 41685,
+      "discount": 17150,
+      "discount_percent": 29.2,
+      "lead_score": "deep_discount",
+      "dealer_conversion_url": "https://www.gorcauto.com/inventory/display/new/2025/RAM/1500/1C6RRFFGXSN176832/",
+      "image_url": "https://images.otf3.pixelmotiondemo.com/364x273/RFnIF-20260105203122.jpg"
+    },
+    {
+      "year": 2026,
+      "make": "RAM",
+      "model": "2500",
+      "trim": "Tradesman 4x4 6'4' Box",
+      "msrp": 77180,
+      "sale_price": 62697,
+      "discount": 14483,
+      "discount_percent": 18.8,
+      "lead_score": "hot_deal",
+      "dealer_conversion_url": "https://www.gorcauto.com/inventory/display/new/2026/RAM/2500/3C63R5CL2TG165514/",
+      "image_url": "https://images.otf3.pixelmotiondemo.com/364x273/Tm3ze-20260105203410.jpg"
+    },
+    {
+      "year": 2026,
+      "make": "Dodge",
+      "model": "Durango",
+      "trim": "GT Plus AWD HEMI V8",
+      "msrp": 48985,
+      "sale_price": 48985,
+      "discount": 0,
+      "discount_percent": 0,
+      "lead_score": "market_rate",
+      "dealer_conversion_url": "https://www.gorcauto.com/inventory/display/new/2026/Dodge/Durango/1C4SDJCT5TC172603/",
+      "image_url": "https://images.otf3.pixelmotiondemo.com/364x269/mmQRi-20260112160736.jpeg"
+    },
+    {
+      "year": 2026,
+      "make": "Chrysler",
+      "model": "Pacifica",
+      "trim": "Limited",
+      "msrp": 48940,
+      "sale_price": 42940,
+      "discount": 6000,
+      "discount_percent": 12.3,
+      "lead_score": "strong_deal",
+      "dealer_conversion_url": "https://www.gorcauto.com/inventory/display/new/2026/Chrysler/Pacifica/",
+      "image_url": "https://images.otf3.pixelmotiondemo.com/364x273/"
+    }
+  ],
+  "pricing_summary": {
+    "lowest_price": {"vehicle": "2026 Jeep Compass Latitude Altitude", "sale_price": 24844},
+    "highest_discount": {"vehicle": "2025 RAM 1500 Big Horn", "discount": 17150},
+    "average_discount_percent": 17.5
+  },
+  "required_disclaimers": [
+    "Prices shown include all applicable incentives and rebates. See dealer for details.",
+    "Finance offers subject to credit approval. Terms may vary based on creditworthiness.",
+    "Inventory subject to prior sale. Contact dealer to confirm availability."
+  ]
+}

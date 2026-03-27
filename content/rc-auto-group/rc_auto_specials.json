@@ -1,0 +1,89 @@
+{
+  "dealer": "RC Chrysler Dodge Jeep RAM",
+  "domain": "https://www.gorcauto.com/",
+  "source": "Website Extraction + ShadowForge Data",
+  "extraction_date": "2026-03-26",
+  "specials_type": "new_vehicle_incentives",
+  "current_offers": [
+    {
+      "offer_name": "Stellantis US Retail Bonus Cash",
+      "offer_code": "24CRA1/25CSA1/26CTA1",
+      "offer_type": "Cash",
+      "amount": 1000,
+      "eligible_vehicles": ["2024-2026 Chrysler, Dodge, Jeep, RAM vehicles"],
+      "expiration": "2026-03-31",
+      "disclaimer": "Must take delivery by expiration date. See dealer for complete details."
+    },
+    {
+      "offer_name": "Stellantis US Bonus Cash",
+      "offer_code": "CRA/CSA/CTA",
+      "offer_type": "Cash",
+      "amount": 500,
+      "eligible_vehicles": ["Select Chrysler, Dodge, Jeep, RAM models"],
+      "expiration": "2026-03-31",
+      "disclaimer": "Bonus Cash applied after negotiated price. See dealer for eligibility."
+    },
+    {
+      "offer_name": "RC Assistance Discount",
+      "offer_code": "RC-ASSIST-2250",
+      "offer_type": "Dealer Discount",
+      "amount": 2250,
+      "eligible_vehicles": ["All new in-stock vehicles"],
+      "expiration": "Ongoing",
+      "disclaimer": "Dealer contribution varies by vehicle. Cannot be combined with all offers."
+    },
+    {
+      "offer_name": "Finance APR Special",
+      "offer_code": "FIN-5.9-84",
+      "offer_type": "Financing",
+      "rate": "5.90%",
+      "term_months": 84,
+      "eligible_vehicles": ["Select new Jeep Compass, Wrangler, Grand Cherokee"],
+      "expiration": "2026-04-30",
+      "disclaimer": "APR financing for qualified buyers through Stellantis Financial Services. Subject to credit approval."
+    },
+    {
+      "offer_name": "Jeep Compass Lease Offer",
+      "offer_code": "LEASE-COMPASS-492",
+      "offer_type": "Lease",
+      "monthly_payment": 492,
+      "term_months": 39,
+      "due_at_signing": "Contact dealer",
+      "eligible_vehicles": ["2026 Jeep Compass Latitude Altitude 4x4"],
+      "expiration": "2026-03-31",
+      "disclaimer": "Lease for qualified lessees. $0.25/mile over 10,500 miles/year. Tax, title, license extra."
+    }
+  ],
+  "featured_deals": [
+    {
+      "vehicle": "2026 Jeep Compass Latitude Altitude 4x4",
+      "msrp_range": "From low $30s",
+      "sale_price_range": "From mid $20s",
+      "discount_range": "Up to $8,400 off MSRP",
+      "dealer_conversion_url": "https://www.gorcauto.com/inventory/new/Jeep/Compass/",
+      "lead_score": "deep_discount"
+    },
+    {
+      "vehicle": "2025-2026 Jeep Grand Cherokee",
+      "msrp_range": "From low $40s",
+      "sale_price_range": "From high $30s",
+      "discount_range": "Up to $11,500 off MSRP",
+      "dealer_conversion_url": "https://www.gorcauto.com/inventory/new/Jeep/Grand-Cherokee/",
+      "lead_score": "deep_discount"
+    },
+    {
+      "vehicle": "2025-2026 RAM 1500",
+      "msrp_range": "From mid $50s",
+      "sale_price_range": "From high $30s",
+      "discount_range": "Up to $17,000 off MSRP",
+      "dealer_conversion_url": "https://www.gorcauto.com/inventory/new/RAM/1500/",
+      "lead_score": "deep_discount"
+    }
+  ],
+  "required_disclaimers": [
+    "All offers subject to change without notice. See dealer for complete details.",
+    "Prices and payments do not include tax, title, license, or dealer fees.",
+    "Must finance through Stellantis Financial Services for APR offers.",
+    "Lease offers for qualified lessees only. Additional charges may apply at lease end."
+  ]
+}

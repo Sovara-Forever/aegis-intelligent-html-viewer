@@ -1,0 +1,51 @@
+================================================================================
+GMB POST — 2026 Jeep Compass | RC Chrysler Dodge Jeep RAM | Newell, WV
+Format: Google Business Profile "What's New" Post
+Max characters: 1,500 | No people photos | No logos | Compliance: FTC / Stellantis
+Image guidance at bottom
+================================================================================
+
+POST TEXT (copy/paste to GBP):
+
+🔑 52 models in stock. Up to $8,422 off MSRP. Current Stellantis incentive programs — verify availability with our team.
+
+The 2026 Jeep Compass at RC Chrysler Dodge Jeep RAM is the compact SUV West Virginia roads actually demand — standard Active Drive 4x4 on every trim, genuine off-road capability on the Trailhawk, and current pricing that puts the Latitude Altitude 4x4 in the mid-$20s for qualified buyers.
+
+Roger Wood, our General Sales Manager with 15 years at RC, pulled live pricing this week:
+
+✅ 2026 Compass Latitude Altitude 4x4 — from the mid-$20s* (VIN available, call for details)
+✅ 2026 Compass Limited 4x4 — from the high $20s* (VIN available, call for details)
+✅ 2026 Compass Trailhawk 4x4 — under $28,000* (VIN available, call for details)
+
+Current Stellantis Bonus Cash programs (offer codes 26CTA1 + CTA) run on a monthly calendar — verify active codes with our team before your visit, as programs reset monthly.
+
+Finance from 5.9% APR / 84 months for qualified buyers through Stellantis Financial Services. Lease from $492/month for 39 months on qualified Latitude Altitude 4x4 for qualified lessees.
+
+We're at 845 Washington St, Newell, WV — about 40 miles south of Pittsburgh. Call Sales at 304-714-2632 or Service at 304-714-4052.
+
+*All prices based on specific in-stock VINs (available upon request). Include all applicable Stellantis and dealer incentives in effect at time of posting; subject to change or expiration without notice. Stellantis incentive programs subject to monthly changes. Finance/lease subject to credit approval. Tax, title, license, registration extra. Inventory subject to prior sale. RC Chrysler Dodge Jeep RAM, 845 Washington St, Newell WV 26050, an authorized Stellantis retailer.
+
+================================================================================
+CALL-TO-ACTION BUTTON: "Call Now" → 304-714-2632
+LINK (optional): https://www.gorcauto.com/inventory/new/Jeep/Compass/
+================================================================================
+
+
+IMAGE GENERATION PROMPT (Compliance: No people, no logos, no license plates):
+--------------------------------------------------------------------------------
+Prompt for AI image generation or photographer brief:
+
+"A 2026 Jeep Compass Trailhawk in Laser Blue Pearl coat, photographed at a low 3/4 front angle on a rural West Virginia road surrounded by autumn hardwood forest. Golden hour light rakes across the hood and front fascia. The road curves ahead into hills, suggesting terrain typical of Hancock County, WV. The background shows a classic Appalachian ridgeline in soft focus. No people, no logos visible, no license plate. Vehicle is clean and fully detailed. Photorealistic automotive photography style, shallow depth of field on background, high contrast on vehicle paint."
+
+Alternative (if seasonal/winter preferred):
+"A 2026 Jeep Compass Latitude Altitude 4x4 in Granite Crystal Metallic parked on a hilltop overlook in early winter, bare oak trees behind it, light snow dusting on the ground. The Ohio River valley is visible in the background in soft focus, referencing the Newell/Hancock County geography. No people, no logos, no license plate. Overcast soft light. Clean automotive photography, professional grade."
+
+--------------------------------------------------------------------------------
+COMPLIANCE CHECKLIST FOR IMAGE:
+[ ] No identifiable people or faces
+[ ] No dealer logo or brand logos visible
+[ ] No license plate visible  
+[ ] No hardcoded price text overlaid on image
+[ ] Vehicle shown is accurate to 2026 model year styling
+[ ] Background consistent with WV geography (hills, rural roads, river valley)
+================================================================================
