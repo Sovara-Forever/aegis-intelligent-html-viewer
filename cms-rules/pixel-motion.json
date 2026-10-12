@@ -1,0 +1,32 @@
+{
+  "id": "pixelmotion",
+  "label": "PixelMotion (pm-motors-plugin)",
+  "cms_notes": "WordPress-based. Paste into the single Custom HTML module, Text tab only. Never Visual mode.",
+  "allowed_tags": ["p","h2","h3","h4","ul","ol","li","a","strong","em","table","tr","td","th","small","div","span"],
+  "forbidden_tags": ["h1","script","style","iframe","html","head","body"],
+  "h2_float_risk": false,
+  "json_ld_in_cms": true,
+  "render_rules": {
+    "wpautop": true,
+    "wpautop_notes": "WordPress adds <p> around blank-line-separated text and <br> on single newlines inside text. Every space/newline between inline content can become a break.",
+    "wptexturize": [{"pattern": "(\\d)x(\\d)", "replace": "$1\u00d7$2", "notes": "4x4 saves as 4&#215;4"}],
+    "strip_json_ld": false,
+    "strip_css": [],
+    "keep_css": ["overflow", "overflow-x", "list-style", "list-style-type"]
+  },
+  "stores": {
+    "rc": {
+      "label": "RC Auto Group (gorcauto.com)",
+      "render_rules": {
+        "strip_json_ld": true,
+        "strip_css": ["overflow-x", "list-style"],
+        "keep_css": ["overflow", "list-style-type"],
+        "notes": "RC strips JSON-LD from page content; JSON-LD goes via Val. RC strips overflow-x and the list-style shorthand; overflow and list-style-type survive."
+      }
+    },
+    "weekley": {
+      "label": "Weekley CDJR",
+      "render_rules": { "strip_json_ld": false, "strip_css": [] }
+    }
+  }
+}

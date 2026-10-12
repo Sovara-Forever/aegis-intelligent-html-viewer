@@ -1,0 +1,12 @@
+{
+  "id": "dealer_com",
+  "label": "Dealer.com",
+  "cms_notes": "Dealer.com (Cox Automotive) WYSIWYG with limited HTML. Strips divs.",
+  "allowed_tags": ["p","h2","h3","ul","li","a"],
+  "forbidden_tags": ["h1","script","style","iframe","html","head","body","div","table"],
+  "h2_float_risk": true,
+  "json_ld_in_cms": false,
+  "output_hint": "Stick to p, h2, h3, ul, li, a only. Test preview after paste.",
+  "render_rules": { "wpautop": false, "wptexturize": [], "strip_json_ld": true, "strip_css": [], "flag_tags": ["div","table"] },
+  "stores": {}
+}

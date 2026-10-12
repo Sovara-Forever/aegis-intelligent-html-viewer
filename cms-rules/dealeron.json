@@ -1,0 +1,11 @@
+{
+  "id": "dealeron",
+  "label": "DealerOn",
+  "cms_notes": "Proprietary CMS with strict HTML sanitizing. H2 in content sections locks to the viewport on scroll (known DealerOn bug): use H3 for sub-headers. No tables. No divs.",
+  "forbidden_tags": ["h1","script","style","iframe","html","head","body","table","div"],
+  "h2_float_risk": true,
+  "h2_float_warning": "Replace ALL h2 with h3 in content blocks.",
+  "json_ld_in_cms": false,
+  "render_rules": { "wpautop": false, "wptexturize": [], "strip_json_ld": true, "strip_css": [], "flag_tags": ["h2","table","div"] },
+  "stores": {}
+}
