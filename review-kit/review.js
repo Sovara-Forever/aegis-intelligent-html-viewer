@@ -5,6 +5,7 @@
   const buf=await (await fetch('page.html',{cache:'no-store'})).arrayBuffer();
   const raw=new TextDecoder().decode(buf);
   const hex=[...new Uint8Array(await crypto.subtle.digest('SHA-256',buf))].map(b=>b.toString(16).padStart(2,'0')).join('');
+  const st=(meta.status||'draft').toLowerCase(), sb=document.getElementById('status'); if(sb){sb.textContent=st; sb.className='pill status st-'+st;}
   const match=hex===meta.sha256.toLowerCase();
   $('title').textContent=meta.title; $('store').textContent=meta.store_label+' · '+meta.cms+' · post '+meta.post_id;
   const s=$('sha'); s.textContent=(match?'SHA-256 match ':'SHA-256 MISMATCH ')+hex.slice(0,8)+'…'+hex.slice(-6); s.className='pill '+(match?'ok':'bad'); s.title=hex;
@@ -28,6 +29,26 @@
   const md=await (await fetch('notes.md',{cache:'no-store'})).text(); $('notes').innerHTML=mdToHtml(md);
   const body='Review: '+meta.slug+'\nSHA-256: '+meta.sha256+'\nURL: '+location.href+'\n\n## Works\n- \n\n## Needs / changes\n- \n\n## Decision\n- [ ] Approved as is\n- [ ] Needs changes\n';
   $('notes-link').href='https://github.com/'+meta.repo+'/issues/new?labels=page-review&title='+encodeURIComponent('Review: '+meta.slug)+'&body='+encodeURIComponent(body);
+  // Optional side-by-side mode: triggered when ./live.html exists next to page.html.
+  const lr=await fetch('live.html',{cache:'no-store'}).catch(()=>null);
+  if(lr&&lr.ok){ const live=await lr.text(); const main=document.querySelector('main');
+    const sec=document.createElement('section'); sec.className='frame'; sec.innerHTML='<h2>Side by side: live (deletions red) vs updated (additions green) · <span id="dstat"></span></h2>'+
+      ['1280','390'].map(w=>'<div class="sbs"><div><h3>Live '+w+'px</h3><div class="box"><iframe data-w="'+w+'" data-k="live" sandbox="allow-popups"></iframe></div></div><div><h3>Updated '+w+'px</h3><div class="box"><iframe data-w="'+w+'" data-k="upd" sandbox="allow-popups"></iframe></div></div></div>').join('');
+    main.insertBefore(sec,main.firstChild);
+    const P=new DOMParser(), A=P.parseFromString(cmsSave(live),'text/html'), B=P.parseFromString(saved,'text/html');
+    const nodes=doc=>{const w=doc.createTreeWalker(doc.body,NodeFilter.SHOW_TEXT,{acceptNode:n=>/^(SCRIPT|STYLE)$/.test(n.parentNode.nodeName)||!n.nodeValue.trim()?2:1});const a=[];let n;while(n=w.nextNode())a.push(n);return a;};
+    const toks=ns=>{const t=[];ns.forEach((n,i)=>n.nodeValue.split(/(\s+)/).forEach(x=>x&&t.push({x,i})));return t;};
+    const na=nodes(A),nb=nodes(B),ta=toks(na),tb=toks(nb),wa=ta.filter(t=>t.x.trim()),wb=tb.filter(t=>t.x.trim());
+    const n=wa.length,m=wb.length,L=Array.from({length:n+1},()=>new Uint32Array(m+1));
+    for(let i=n-1;i>=0;i--)for(let j=m-1;j>=0;j--)L[i][j]=wa[i].x===wb[j].x?L[i+1][j+1]+1:Math.max(L[i+1][j],L[i][j+1]);
+    let i=0,j=0,add=0,del=0; while(i<n&&j<m){ if(wa[i].x===wb[j].x){i++;j++;} else if(L[i+1][j]>=L[i][j+1]){wa[i++].c=1;del++;} else {wb[j++].c=1;add++;} }
+    while(i<n){wa[i++].c=1;del++;} while(j<m){wb[j++].c=1;add++;}
+    const paint=(doc,ns,tk,css)=>ns.forEach((node,k)=>{const mine=tk.filter(t=>t.i===k); if(!mine.some(t=>t.c))return; const f=doc.createDocumentFragment();
+      mine.forEach(t=>{if(t.c){const s=doc.createElement('mark');s.setAttribute('style',css);s.textContent=t.x;f.appendChild(s);}else f.appendChild(doc.createTextNode(t.x));}); node.parentNode.replaceChild(f,node);});
+    paint(A,na,ta,'background:#ffd6d6;text-decoration:line-through'); paint(B,nb,tb,'background:#c9f7d2');
+    document.getElementById('dstat').textContent='+'+add+' / −'+del+' words';
+    sec.querySelectorAll('iframe').forEach(f=>{f.srcdoc=wrap((f.dataset.k==='live'?A:B).body.innerHTML); if(f.dataset.w==='390'){f.style.width='390px';}});
+  }
   document.body.dataset.sha=match?'match':'mismatch'; document.body.dataset.ready='1';
   function esc(t){return t.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');}
   function inl(t){return esc(t).replace(/`([^`]+)`/g,'<code>$1</code>').replace(/\*\*([^*]+)\*\*/g,'<strong>$1</strong>').replace(/\[([^\]]+)\]\((https?:[^)]+)\)/g,'<a href="$2" target="_blank" rel="noopener">$1</a>');}

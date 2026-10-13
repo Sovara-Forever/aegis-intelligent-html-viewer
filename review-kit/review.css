@@ -12,3 +12,5 @@ main{display:grid;grid-template-columns:minmax(0,1fr) 410px 420px;gap:12px;paddi
 #notes h1,#notes h2,#notes h3{font-size:14px;color:#c4b5fd}#notes code{background:#0f172a;padding:1px 4px}
 #notes table{border-collapse:collapse}#notes td,#notes th{border:1px solid #334155;padding:2px 5px}
 @media(max-width:1300px){main{grid-template-columns:1fr}}
+.pill.status{text-transform:uppercase;font-weight:700}.st-draft{background:#eee;color:#555}.st-tested{background:#fff3c4;color:#7a5b00}.st-approved{background:#d6f5dd;color:#11632a}
+.sbs{display:grid;grid-template-columns:1fr 1fr;gap:12px}.sbs h3{margin:4px 0;font-size:13px}

@@ -1,0 +1,50 @@
+{
+  "generated": "2026-10-13",
+  "statuses": [
+    "draft",
+    "tested",
+    "approved"
+  ],
+  "reviews": [
+    {
+      "slug": "2026-10-12-rc-37658-preowned-752bbb",
+      "client": "RC Auto Group",
+      "store": "rc",
+      "page_id": "37658 (pre-paste)",
+      "date": "2026-10-12",
+      "status": "draft",
+      "side_by_side": false,
+      "url": "https://sovara-forever.github.io/aegis-intelligent-html-viewer/reviews/2026-10-12-rc-37658-preowned-752bbb/"
+    },
+    {
+      "slug": "2026-10-12-rc-w1b-8n98x3",
+      "client": "RC Auto Group",
+      "store": "rc",
+      "page_id": "new (publishes 10/12)",
+      "date": "2026-10-12",
+      "status": "tested",
+      "side_by_side": false,
+      "url": "https://sovara-forever.github.io/aegis-intelligent-html-viewer/reviews/2026-10-12-rc-w1b-8n98x3/"
+    },
+    {
+      "slug": "2026-10-12-weekley-4310-ram1500-68e8cf",
+      "client": "Weekley CDJR",
+      "store": "weekley",
+      "page_id": "4310 (live)",
+      "date": "2026-10-12",
+      "status": "draft",
+      "side_by_side": false,
+      "url": "https://sovara-forever.github.io/aegis-intelligent-html-viewer/reviews/2026-10-12-weekley-4310-ram1500-68e8cf/"
+    },
+    {
+      "slug": "2026-10-12-weekley-4479-w1b-374a5c",
+      "client": "Weekley CDJR",
+      "store": "weekley",
+      "page_id": "4479 (live)",
+      "date": "2026-10-12",
+      "status": "draft",
+      "side_by_side": false,
+      "url": "https://sovara-forever.github.io/aegis-intelligent-html-viewer/reviews/2026-10-12-weekley-4479-w1b-374a5c/"
+    }
+  ]
+}
