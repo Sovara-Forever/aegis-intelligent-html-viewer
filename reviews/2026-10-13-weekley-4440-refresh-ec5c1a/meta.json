@@ -1,0 +1,19 @@
+{
+  "slug": "2026-10-13-weekley-4440-refresh-ec5c1a",
+  "repo": "Sovara-Forever/aegis-intelligent-html-viewer",
+  "title": "Weekley 4440: Dealer Select used (Butler OH) date refresh",
+  "store": "weekley",
+  "store_label": "Weekley CDJR",
+  "cms": "Pixel Motion",
+  "cms_rules": "pixel-motion",
+  "post_id": "4440 (live)",
+  "live_url": "https://www.weekleychryslerdodgejeep.com/dealer-select-used-butler-oh/",
+  "source_file": "output/weekley-refresh-2026-10-13/4440/preview-4440-after-refresh-2026-10-13.html",
+  "live_source_file": "output/weekley-refresh-2026-10-13/4440/preview-4440-before-live-2026-10-07.html",
+  "sha256": "ec5c1a13c195e18db5852987e3083fdc514fa426de5992978c7fd9c3b29c0dde",
+  "live_sha256": "896078337885fbf887ef14feb52a61fa3934a336cc93544150910c92586015be",
+  "created": "2026-10-13",
+  "status": "draft",
+  "side_by_side": true,
+  "redactions": "2 staff email properties removed from JSON-LD in both review copies (live.html and page.html)"
+}

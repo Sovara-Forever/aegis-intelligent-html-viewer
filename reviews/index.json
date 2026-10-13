@@ -45,6 +45,28 @@
       "status": "draft",
       "side_by_side": false,
       "url": "https://sovara-forever.github.io/aegis-intelligent-html-viewer/reviews/2026-10-12-weekley-4479-w1b-374a5c/"
+    },
+    {
+      "slug": "2026-10-13-weekley-4334-refresh-d394af",
+      "client": "Weekley CDJR",
+      "store": "weekley",
+      "page_id": "4334 (live)",
+      "date": "2026-10-13",
+      "status": "draft",
+      "side_by_side": true,
+      "live_url": "https://www.weekleychryslerdodgejeep.com/new-jeep-cherokee-butler-oh/",
+      "url": "https://sovara-forever.github.io/aegis-intelligent-html-viewer/reviews/2026-10-13-weekley-4334-refresh-d394af/"
+    },
+    {
+      "slug": "2026-10-13-weekley-4440-refresh-ec5c1a",
+      "client": "Weekley CDJR",
+      "store": "weekley",
+      "page_id": "4440 (live)",
+      "date": "2026-10-13",
+      "status": "draft",
+      "side_by_side": true,
+      "live_url": "https://www.weekleychryslerdodgejeep.com/dealer-select-used-butler-oh/",
+      "url": "https://sovara-forever.github.io/aegis-intelligent-html-viewer/reviews/2026-10-13-weekley-4440-refresh-ec5c1a/"
     }
   ]
 }

@@ -1,0 +1,18 @@
+{
+  "slug": "2026-10-13-weekley-4334-refresh-d394af",
+  "repo": "Sovara-Forever/aegis-intelligent-html-viewer",
+  "title": "Weekley 4334: New Jeep Cherokee (Butler OH) date + 4x4 refresh",
+  "store": "weekley",
+  "store_label": "Weekley CDJR",
+  "cms": "Pixel Motion",
+  "cms_rules": "pixel-motion",
+  "post_id": "4334 (live)",
+  "live_url": "https://www.weekleychryslerdodgejeep.com/new-jeep-cherokee-butler-oh/",
+  "source_file": "output/weekley-refresh-2026-10-13/4334/preview-4334-after-refresh-2026-10-13.html",
+  "live_source_file": "output/weekley-refresh-2026-10-13/4334/preview-4334-before-live-2026-10-07.html",
+  "sha256": "d394af2912a5ef3b33b07d9690d20ba5314c5e6c650eedb4ad29e3c7d8e95237",
+  "live_sha256": "c3b73971ce831d17e9d61bb357ad5065a2f1387406612922eb7ca5bd3b1c71e8",
+  "created": "2026-10-13",
+  "status": "draft",
+  "side_by_side": true
+}
