@@ -32,7 +32,7 @@
   // Optional side-by-side mode: triggered when ./live.html exists next to page.html.
   const lr=await fetch('live.html',{cache:'no-store'}).catch(()=>null);
   if(lr&&lr.ok){ const live=await lr.text(); const main=document.querySelector('main');
-    const sec=document.createElement('section'); sec.className='frame'; sec.innerHTML='<h2>Side by side: live (deletions red) vs updated (additions green) · <span id="dstat"></span></h2>'+
+    const sec=document.createElement('section'); sec.className='frame sbs-sec'; sec.innerHTML='<h2>Side by side: live (deletions red) vs updated (additions green) · <span id="dstat"></span></h2>'+
       ['1280','390'].map(w=>'<div class="sbs"><div><h3>Live '+w+'px</h3><div class="box"><iframe data-w="'+w+'" data-k="live" sandbox="allow-popups"></iframe></div></div><div><h3>Updated '+w+'px</h3><div class="box"><iframe data-w="'+w+'" data-k="upd" sandbox="allow-popups"></iframe></div></div></div>').join('');
     main.insertBefore(sec,main.firstChild);
     const P=new DOMParser(), A=P.parseFromString(cmsSave(live),'text/html'), B=P.parseFromString(saved,'text/html');

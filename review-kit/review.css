@@ -14,3 +14,4 @@ main{display:grid;grid-template-columns:minmax(0,1fr) 410px 420px;gap:12px;paddi
 @media(max-width:1300px){main{grid-template-columns:1fr}}
 .pill.status{text-transform:uppercase;font-weight:700}.st-draft{background:#eee;color:#555}.st-tested{background:#fff3c4;color:#7a5b00}.st-approved{background:#d6f5dd;color:#11632a}
 .sbs{display:grid;grid-template-columns:1fr 1fr;gap:12px}.sbs h3{margin:4px 0;font-size:13px}
+.sbs-sec{grid-column:1/-1}.sbs .box iframe{width:100%;height:70vh;border:0;display:block}.sbs .box iframe[data-w="390"]{width:390px;max-width:100%}.sbs{margin-bottom:12px}
