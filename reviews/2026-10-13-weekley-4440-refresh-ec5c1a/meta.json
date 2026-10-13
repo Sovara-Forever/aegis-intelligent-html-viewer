@@ -8,12 +8,11 @@
   "cms_rules": "pixel-motion",
   "post_id": "4440 (live)",
   "live_url": "https://www.weekleychryslerdodgejeep.com/dealer-select-used-butler-oh/",
-  "source_file": "output/weekley-refresh-2026-10-13/4440/preview-4440-after-refresh-2026-10-13.html",
-  "live_source_file": "output/weekley-refresh-2026-10-13/4440/preview-4440-before-live-2026-10-07.html",
-  "sha256": "ec5c1a13c195e18db5852987e3083fdc514fa426de5992978c7fd9c3b29c0dde",
-  "live_sha256": "896078337885fbf887ef14feb52a61fa3934a336cc93544150910c92586015be",
+  "sha256": "991e502e21491b9df1a48535c50aacf396db24873f403bfd5c99d3353234f1aa",
+  "live_sha256": "ae58ebd5fe06b44cbf26186c0fcb6c16172b4dd86f28ba5cb9d36b8c6f570102",
   "created": "2026-10-13",
   "status": "draft",
   "side_by_side": true,
-  "redactions": "2 staff email properties removed from JSON-LD in both review copies (live.html and page.html)"
+  "redactions": "2 staff email properties removed from JSON-LD in both review copies (live.html and page.html)",
+  "sha_scope": "paste body between <!--PASTE-BODY-START--> and <!--PASTE-BODY-END-->"
 }

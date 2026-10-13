@@ -4,7 +4,8 @@
   const meta=await (await fetch('meta.json',{cache:'no-store'})).json();
   const buf=await (await fetch('page.html',{cache:'no-store'})).arrayBuffer();
   const raw=new TextDecoder().decode(buf);
-  const hex=[...new Uint8Array(await crypto.subtle.digest('SHA-256',buf))].map(b=>b.toString(16).padStart(2,'0')).join('');
+  const mk=raw.match(/<!--PASTE-BODY-START-->([\s\S]*?)<!--PASTE-BODY-END-->/), hb=mk?new TextEncoder().encode(mk[1]):buf;
+  const hex=[...new Uint8Array(await crypto.subtle.digest('SHA-256',hb))].map(b=>b.toString(16).padStart(2,'0')).join('');
   const st=(meta.status||'draft').toLowerCase(), sb=document.getElementById('status'); if(sb){sb.textContent=st; sb.className='pill status st-'+st;}
   const match=hex===meta.sha256.toLowerCase();
   $('title').textContent=meta.title; $('store').textContent=meta.store_label+' · '+meta.cms+' · post '+meta.post_id;

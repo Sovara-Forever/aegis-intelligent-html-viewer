@@ -8,11 +8,10 @@
   "cms_rules": "pixel-motion",
   "post_id": "4334 (live)",
   "live_url": "https://www.weekleychryslerdodgejeep.com/new-jeep-cherokee-butler-oh/",
-  "source_file": "output/weekley-refresh-2026-10-13/4334/preview-4334-after-refresh-2026-10-13.html",
-  "live_source_file": "output/weekley-refresh-2026-10-13/4334/preview-4334-before-live-2026-10-07.html",
-  "sha256": "d394af2912a5ef3b33b07d9690d20ba5314c5e6c650eedb4ad29e3c7d8e95237",
-  "live_sha256": "c3b73971ce831d17e9d61bb357ad5065a2f1387406612922eb7ca5bd3b1c71e8",
+  "sha256": "09904efcb7330678203109c96368691dbb33d0a0c39410cb89073486d7848499",
+  "live_sha256": "c57a848da77bb0050c8518b64e9c7e35b58eadc720bcb906f9638451653547cb",
   "created": "2026-10-13",
   "status": "draft",
-  "side_by_side": true
+  "side_by_side": true,
+  "sha_scope": "paste body between <!--PASTE-BODY-START--> and <!--PASTE-BODY-END-->"
 }

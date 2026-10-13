@@ -1,22 +1,17 @@
-# Page Review: Weekley 4334 minimal-change refresh (2026-10-13)
+# Review notes: Weekley 4334: New Jeep Cherokee (Butler OH) date + 4x4 refresh
 
-Live page: https://www.weekleychryslerdodgejeep.com/new-jeep-cherokee-butler-oh/
+- Date: 2026-10-13
+- Status: draft
+- Page: Weekley CDJR, post 4334 (live)
+- Live page: https://www.weekleychryslerdodgejeep.com/new-jeep-cherokee-butler-oh/
 
-Side-by-side: live.html = body-only preview of the live page (Oct 7 paste), page.html = body-only sim of the 10/13 refresh paste. Theme CSS not included.
+## What changed
+Minimal-change refresh of the new Jeep Cherokee page. Changes: as-of dates (Oct 7 to Oct 13), offer valid-until dates in structured data (Oct 14 to Oct 20), and the 4x4 character fix (the multiplication sign is now a plain x). Structured-data FAQ answers were also updated to match the visible FAQ wording (see below). No price or sold-unit changes. Markup and styles unchanged.
 
-## Scope check (Sean's rule: only sold units, prices, dates, 4x4 fix may differ)
-- Markup structure (tag sequence incl. attributes/inline styles): IDENTICAL
-- <style> blocks: IDENTICAL
-- JSON-LD: date fields only (listed below)
-- Out-of-scope differences: NONE in page content. Only the preview wrapper's own label (before-live-2026-10-07 vs after-refresh-2026-10-13) differs; it's not part of the paste.
+## Structured-data FAQ update (refreshed 2026-10-13)
+Three FAQ answers in the structured data now match the visible FAQ text:
+- "Does the 2026 Jeep Cherokee have 4-wheel drive?": shortened (weather/trails sentence removed).
+- Limited vs Overland: "2026 Cherokee" dropped from the trim names; added "Do not assume Limited features carry over to Overland or the other way around."
+- Lease: "Updated lease offers coming soon ... contact Weekley CDJR" became "Updated Lease Offers Coming Soon ... contact us".
 
-## Every change
-- JSON-LD dateModified 2026-10-07 -> 2026-10-13 (x1)
-- JSON-LD priceValidUntil 2026-10-14 -> 2026-10-20 (x2)
-- JSON-LD Offer.description 'detail page on 2026-10-07' -> '2026-10-13' (x2)
-- Visible 'VDPs on October 7, 2026' -> 'October 13, 2026' (x1)
-- Visible 4x4 fix: '4&#215;4' -> '4&#120;4' (x14)
-
-No price or sold-unit changes (VDP Final Prices unchanged per pack README).
-
-Status: draft. Awaiting Nicky Gate, Epsilon co-sign, Sean's write-off.
+This review shows the live page and the updated page side by side, with changed words highlighted.
