@@ -8,11 +8,13 @@
   "cms_rules": "pixel-motion",
   "post_id": "4440 (live)",
   "live_url": "https://www.weekleychryslerdodgejeep.com/dealer-select-used-butler-oh/",
-  "sha256": "991e502e21491b9df1a48535c50aacf396db24873f403bfd5c99d3353234f1aa",
+  "sha256": "fe0f33f7838d6a81ab1f30151f518b99522c6764badd0f9d108b2228e90093f2",
   "live_sha256": "ae58ebd5fe06b44cbf26186c0fcb6c16172b4dd86f28ba5cb9d36b8c6f570102",
   "created": "2026-10-13",
   "status": "draft",
   "side_by_side": true,
   "redactions": "2 staff email properties removed from JSON-LD in both review copies (live.html and page.html)",
-  "sha_scope": "paste body between <!--PASTE-BODY-START--> and <!--PASTE-BODY-END-->"
+  "sha_scope": "paste body between <!--PASTE-BODY-START--> and <!--PASTE-BODY-END-->",
+  "paste_sha256_prefix": "0b4e02bc",
+  "jsonld_sha256_prefix_unredacted": "cc88a984"
 }
