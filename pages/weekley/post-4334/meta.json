@@ -1,6 +1,12 @@
 {
-  "versions": 1,
+  "versions": 2,
   "log": [
+    {
+      "stamp": "2026-10-28_105411",
+      "as_of": "2026-10-13",
+      "status": "Gate review",
+      "summary": "8 line(s) added, 9 removed in paste HTML; JSON-LD changed."
+    },
     {
       "stamp": "2026-10-28_105410",
       "as_of": "2026-10-07",
@@ -9,8 +15,8 @@
     }
   ],
   "title": "Weekley CDJR \u2013 post 4334",
-  "as_of": "2026-10-07",
-  "status": "Sean approved",
-  "stamp": "2026-10-28_105410",
+  "as_of": "2026-10-13",
+  "status": "Gate review",
+  "stamp": "2026-10-28_105411",
   "emails_redacted": 0
 }

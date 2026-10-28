@@ -51,7 +51,7 @@
         "@id": "https://www.weekleychryslerdodgejeep.com/new-jeep-cherokee-butler-oh/#breadcrumb"
       },
       "datePublished": "2026-06-10",
-      "dateModified": "2026-10-07",
+      "dateModified": "2026-10-13",
       "author": {
         "@id": "https://www.weekleychryslerdodgejeep.com/#person-erik-schneeg"
       },
@@ -192,8 +192,8 @@
         "priceCurrency": "USD",
         "availability": "https://schema.org/InStock",
         "itemCondition": "https://schema.org/NewCondition",
-        "priceValidUntil": "2026-10-14",
-        "description": "Final Price $44,530 as shown on the vehicle detail page on 2026-10-07 (MSRP $47,305, Doc Fee plus $398, Dealer Discount minus $3,173). Excludes tax, title, and license.",
+        "priceValidUntil": "2026-10-20",
+        "description": "Final Price $44,530 as shown on the vehicle detail page on 2026-10-13 (MSRP $47,305, Doc Fee plus $398, Dealer Discount minus $3,173). Excludes tax, title, and license.",
         "seller": {
           "@id": "https://www.weekleychryslerdodgejeep.com/#dealer"
         }
@@ -239,8 +239,8 @@
         "priceCurrency": "USD",
         "availability": "https://schema.org/InStock",
         "itemCondition": "https://schema.org/NewCondition",
-        "priceValidUntil": "2026-10-14",
-        "description": "Final Price $41,929 as shown on the vehicle detail page on 2026-10-07 (MSRP $44,720, Doc Fee plus $398, Dealer Discount minus $3,189). Excludes tax, title, and license.",
+        "priceValidUntil": "2026-10-20",
+        "description": "Final Price $41,929 as shown on the vehicle detail page on 2026-10-13 (MSRP $44,720, Doc Fee plus $398, Dealer Discount minus $3,189). Excludes tax, title, and license.",
         "seller": {
           "@id": "https://www.weekleychryslerdodgejeep.com/#dealer"
         }
@@ -264,7 +264,7 @@
           "name": "Does the 2026 Jeep Cherokee have 4-wheel drive?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. Both 2026 Jeep Cherokees shown on this page, Overland T7402 and 85th Anniversary Edition T7410, are 4x4 hybrids with the traction to handle variable Ohio weather, light trails, and back roads in all seasons. Capability still varies by the exact unit; see that vehicle's window sticker."
+            "text": "Yes. Both 2026 Jeep Cherokees shown on this page, Overland T7402 and 85th Anniversary Edition T7410, are 4x4 hybrids. Capability still varies by the exact unit. See that vehicle’s window sticker."
           }
         },
         {
@@ -272,7 +272,7 @@
           "name": "What is the difference between the Limited and Overland Cherokees?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "T7402 is the 2026 Cherokee Overland 4x4 hybrid in Sting-Gray at a Final Price of $44,530. T7410 is the 2026 Cherokee 85th Anniversary Edition 4x4 hybrid in Bright White at $41,929. For a Limited, check live new Cherokee inventory. Open each Vehicle Detail Page and window sticker for that unit's equipment."
+            "text": "T7402 is the Overland 4x4 hybrid in Sting-Gray at a Final Price of $44,530. T7410 is the 85th Anniversary Edition 4x4 hybrid in Bright White at $41,929. For a Limited, check live new Cherokee inventory. Open each Vehicle Detail Page and window sticker for that unit’s equipment. Do not assume Limited features carry over to Overland or the other way around."
           }
         },
         {
@@ -288,7 +288,7 @@
           "name": "What does the 2026 Jeep Cherokee lease for near Butler, OH?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Updated lease offers coming soon. Check back or contact Weekley CDJR at 567-430-2908 for current availability."
+            "text": "Updated Lease Offers Coming Soon. Check back or contact us at 567-430-2908 for current availability."
           }
         },
         {
