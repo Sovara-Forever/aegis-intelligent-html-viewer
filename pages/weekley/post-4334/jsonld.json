@@ -1,0 +1,305 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "AutoDealer",
+      "@id": "https://www.weekleychryslerdodgejeep.com/#dealer",
+      "name": "Weekley Chrysler Dodge Jeep Ram",
+      "legalName": "Weekley Chrysler Dodge Jeep Co",
+      "url": "https://www.weekleychryslerdodgejeep.com/",
+      "telephone": "+1-567-430-2908",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "50 Main St",
+        "addressLocality": "Butler",
+        "addressRegion": "OH",
+        "postalCode": "44822",
+        "addressCountry": "US"
+      },
+      "image": "https://www.weekleychryslerdodgejeep.com/wp-content/uploads/2024/01/weekley-logo.png",
+      "priceRange": "$$",
+      "sameAs": [
+        "https://www.facebook.com/weekleychryslerdodgejeep",
+        "https://www.youtube.com/@weekleycdjr9111"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.weekleychryslerdodgejeep.com/#website",
+      "url": "https://www.weekleychryslerdodgejeep.com/",
+      "name": "Weekley Chrysler Dodge Jeep Ram",
+      "publisher": {
+        "@id": "https://www.weekleychryslerdodgejeep.com/#dealer"
+      }
+    },
+    {
+      "@type": "CollectionPage",
+      "@id": "https://www.weekleychryslerdodgejeep.com/new-jeep-cherokee-butler-oh/#webpage",
+      "url": "https://www.weekleychryslerdodgejeep.com/new-jeep-cherokee-butler-oh/",
+      "name": "2026 Jeep Cherokee for Sale Near Butler, OH | Weekley CDJR",
+      "description": "Shop the 2026 Jeep Cherokee 4x4 hybrid at Weekley CDJR in Butler, OH. Overland T7402 and 85th Anniversary Edition T7410 with Final Prices from the live vehicle detail pages.",
+      "isPartOf": {
+        "@id": "https://www.weekleychryslerdodgejeep.com/#website"
+      },
+      "about": {
+        "@id": "https://www.weekleychryslerdodgejeep.com/new-jeep-cherokee-butler-oh/#model"
+      },
+      "mainEntity": {
+        "@id": "https://www.weekleychryslerdodgejeep.com/new-jeep-cherokee-butler-oh/#inventory"
+      },
+      "breadcrumb": {
+        "@id": "https://www.weekleychryslerdodgejeep.com/new-jeep-cherokee-butler-oh/#breadcrumb"
+      },
+      "datePublished": "2026-06-10",
+      "dateModified": "2026-10-07",
+      "author": {
+        "@id": "https://www.weekleychryslerdodgejeep.com/#person-erik-schneeg"
+      },
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "url": "https://www.weekleychryslerdodgejeep.com/wp-content/uploads/2026/06/2026-jeep-cherokee-limited-2.webp"
+      },
+      "relatedLink": [
+        "https://www.weekleychryslerdodgejeep.com/inventory/new/Jeep/Grand-Cherokee/",
+        "https://www.weekleychryslerdodgejeep.com/inventory/new/Jeep/",
+        "https://www.weekleychryslerdodgejeep.com/inventory/used/Jeep/Cherokee/",
+        "https://www.weekleychryslerdodgejeep.com/dealer-select-used-butler-oh/"
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.weekleychryslerdodgejeep.com/new-jeep-cherokee-butler-oh/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.weekleychryslerdodgejeep.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "New Vehicles",
+          "item": "https://www.weekleychryslerdodgejeep.com/inventory/new/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "2026 Jeep Cherokee"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://www.weekleychryslerdodgejeep.com/#person-erik-schneeg",
+      "name": "Erik Schneeg",
+      "jobTitle": "Sales Consultant",
+      "worksFor": {
+        "@id": "https://www.weekleychryslerdodgejeep.com/#dealer"
+      },
+      "description": "Erik Schneeg has spent 29 years at Weekley CDJR helping North Central Ohio families find the right Jeep for every season, trail, and commute."
+    },
+    {
+      "@type": "Product",
+      "@id": "https://www.weekleychryslerdodgejeep.com/new-jeep-cherokee-butler-oh/#model",
+      "name": "2026 Jeep Cherokee",
+      "brand": {
+        "@type": "Brand",
+        "name": "Jeep"
+      },
+      "manufacturer": {
+        "@type": "Organization",
+        "name": "Stellantis"
+      },
+      "category": "Sport Utility Vehicle",
+      "description": "2026 Jeep Cherokee 4x4 hybrid SUV available at Weekley CDJR in Butler, Ohio.",
+      "image": "https://www.weekleychryslerdodgejeep.com/wp-content/uploads/2026/06/2026-jeep-cherokee-limited-2.webp",
+      "offers": {
+        "@type": "AggregateOffer",
+        "lowPrice": "41929",
+        "highPrice": "44530",
+        "priceCurrency": "USD",
+        "offerCount": 2,
+        "availability": "https://schema.org/InStock",
+        "seller": {
+          "@id": "https://www.weekleychryslerdodgejeep.com/#dealer"
+        }
+      }
+    },
+    {
+      "@type": "ItemList",
+      "@id": "https://www.weekleychryslerdodgejeep.com/new-jeep-cherokee-butler-oh/#inventory",
+      "name": "2026 Jeep Cherokee units at Weekley CDJR Butler",
+      "numberOfItems": 2,
+      "itemListOrder": "https://schema.org/ItemListOrderAscending",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "url": "https://www.weekleychryslerdodgejeep.com/inventory/display/new/2026/Jeep/Cherokee/3C4PJMC25TT276228/",
+          "item": {
+            "@id": "https://www.weekleychryslerdodgejeep.com/inventory/display/new/2026/Jeep/Cherokee/3C4PJMC25TT276228/#vehicle"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "url": "https://www.weekleychryslerdodgejeep.com/inventory/display/new/2026/Jeep/Cherokee/3C4PJMB24TT286086/",
+          "item": {
+            "@id": "https://www.weekleychryslerdodgejeep.com/inventory/display/new/2026/Jeep/Cherokee/3C4PJMB24TT286086/#vehicle"
+          }
+        }
+      ]
+    },
+    {
+      "@type": [
+        "Vehicle",
+        "Car"
+      ],
+      "@id": "https://www.weekleychryslerdodgejeep.com/inventory/display/new/2026/Jeep/Cherokee/3C4PJMC25TT276228/#vehicle",
+      "name": "2026 Jeep Cherokee Overland 4x4",
+      "url": "https://www.weekleychryslerdodgejeep.com/inventory/display/new/2026/Jeep/Cherokee/3C4PJMC25TT276228/",
+      "vehicleIdentificationNumber": "3C4PJMC25TT276228",
+      "sku": "T7402",
+      "brand": {
+        "@type": "Brand",
+        "name": "Jeep"
+      },
+      "model": "Cherokee",
+      "vehicleConfiguration": "Overland 4x4",
+      "modelDate": "2026",
+      "itemCondition": "https://schema.org/NewCondition",
+      "mileageFromOdometer": {
+        "@type": "QuantitativeValue",
+        "value": 15,
+        "unitCode": "SMI"
+      },
+      "color": "Sting-Gray Clear Coat",
+      "vehicleInteriorColor": "arctic/black",
+      "driveWheelConfiguration": "https://schema.org/FourWheelDriveConfiguration",
+      "fuelType": "Hybrid",
+      "vehicleEngine": {
+        "@type": "EngineSpecification",
+        "name": "1.6L I4 Turbo Hybrid"
+      },
+      "bodyType": "Sport Utility",
+      "image": "https://images.otf3.pixelmotiondemo.com/800x600/w2Wgw-20260827222835.jpg",
+      "offers": {
+        "@type": "Offer",
+        "@id": "https://www.weekleychryslerdodgejeep.com/inventory/display/new/2026/Jeep/Cherokee/3C4PJMC25TT276228/#offer",
+        "url": "https://www.weekleychryslerdodgejeep.com/inventory/display/new/2026/Jeep/Cherokee/3C4PJMC25TT276228/",
+        "price": "44530",
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition",
+        "priceValidUntil": "2026-10-14",
+        "description": "Final Price $44,530 as shown on the vehicle detail page on 2026-10-07 (MSRP $47,305, Doc Fee plus $398, Dealer Discount minus $3,173). Excludes tax, title, and license.",
+        "seller": {
+          "@id": "https://www.weekleychryslerdodgejeep.com/#dealer"
+        }
+      }
+    },
+    {
+      "@type": [
+        "Vehicle",
+        "Car"
+      ],
+      "@id": "https://www.weekleychryslerdodgejeep.com/inventory/display/new/2026/Jeep/Cherokee/3C4PJMB24TT286086/#vehicle",
+      "name": "2026 Jeep Cherokee 85th Anniversary Edition 4x4",
+      "url": "https://www.weekleychryslerdodgejeep.com/inventory/display/new/2026/Jeep/Cherokee/3C4PJMB24TT286086/",
+      "vehicleIdentificationNumber": "3C4PJMB24TT286086",
+      "sku": "T7410",
+      "brand": {
+        "@type": "Brand",
+        "name": "Jeep"
+      },
+      "model": "Cherokee",
+      "vehicleConfiguration": "85th Anniversary Edition 4x4",
+      "modelDate": "2026",
+      "itemCondition": "https://schema.org/NewCondition",
+      "mileageFromOdometer": {
+        "@type": "QuantitativeValue",
+        "value": 12,
+        "unitCode": "SMI"
+      },
+      "color": "Bright White Clear Coat",
+      "driveWheelConfiguration": "https://schema.org/FourWheelDriveConfiguration",
+      "fuelType": "Hybrid",
+      "vehicleEngine": {
+        "@type": "EngineSpecification",
+        "name": "1.6L I4 EP Turbo Hybrid"
+      },
+      "bodyType": "Sport Utility",
+      "image": "https://images.otf3.pixelmotiondemo.com/800x600/DzAow-20260929191650.jpg",
+      "offers": {
+        "@type": "Offer",
+        "@id": "https://www.weekleychryslerdodgejeep.com/inventory/display/new/2026/Jeep/Cherokee/3C4PJMB24TT286086/#offer",
+        "url": "https://www.weekleychryslerdodgejeep.com/inventory/display/new/2026/Jeep/Cherokee/3C4PJMB24TT286086/",
+        "price": "41929",
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition",
+        "priceValidUntil": "2026-10-14",
+        "description": "Final Price $41,929 as shown on the vehicle detail page on 2026-10-07 (MSRP $44,720, Doc Fee plus $398, Dealer Discount minus $3,189). Excludes tax, title, and license.",
+        "seller": {
+          "@id": "https://www.weekleychryslerdodgejeep.com/#dealer"
+        }
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.weekleychryslerdodgejeep.com/new-jeep-cherokee-butler-oh/#faq",
+      "url": "https://www.weekleychryslerdodgejeep.com/new-jeep-cherokee-butler-oh/",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What powertrain does the 2026 Jeep Cherokee use?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The 2026 Jeep Cherokee is powered by a 1.6L Full Hybrid Electric Vehicle (FHEV) powertrain that seamlessly blends electric and gasoline power. It delivers responsive performance with smooth transitions and improved fuel efficiency compared to a traditional combustion-only engine."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does the 2026 Jeep Cherokee have 4-wheel drive?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Both 2026 Jeep Cherokees shown on this page, Overland T7402 and 85th Anniversary Edition T7410, are 4x4 hybrids with the traction to handle variable Ohio weather, light trails, and back roads in all seasons. Capability still varies by the exact unit; see that vehicle's window sticker."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the difference between the Limited and Overland Cherokees?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "T7402 is the 2026 Cherokee Overland 4x4 hybrid in Sting-Gray at a Final Price of $44,530. T7410 is the 2026 Cherokee 85th Anniversary Edition 4x4 hybrid in Bright White at $41,929. For a Limited, check live new Cherokee inventory. Open each Vehicle Detail Page and window sticker for that unit's equipment."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What technology comes standard on the 2026 Jeep Cherokee Limited?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The 2026 Jeep Cherokee Limited includes a 12.3-inch Uconnect touchscreen display, Apple CarPlay, Android Auto, SiriusXM with 360L, GPS navigation, a 9-speaker amplified audio system with subwoofer, 4G LTE Wi-Fi Hotspot, Alexa Built-In, and a heated steering wheel."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What does the 2026 Jeep Cherokee lease for near Butler, OH?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Updated lease offers coming soon. Check back or contact Weekley CDJR at 567-430-2908 for current availability."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Where can I test drive a 2026 Jeep Cherokee near Mansfield, OH?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Weekley CDJR is at 50 Main St, Butler, OH 44822 — a short drive from Mansfield on US-30, easily reached from Ashland, Mount Vernon, and Loudonville. Call 567-430-2908 to schedule or stop in during business hours."
+          }
+        }
+      ]
+    }
+  ]
+}
