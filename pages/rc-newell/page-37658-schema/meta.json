@@ -1,0 +1,16 @@
+{
+  "versions": 1,
+  "log": [
+    {
+      "stamp": "2026-11-02_095540",
+      "as_of": "2026-11-02",
+      "status": "Gate review",
+      "summary": "First published version."
+    }
+  ],
+  "title": "RC Newell 37658 JSON-LD ItemList (6 items)",
+  "as_of": "2026-11-02",
+  "status": "Gate review",
+  "stamp": "2026-11-02_095540",
+  "emails_redacted": 0
+}
