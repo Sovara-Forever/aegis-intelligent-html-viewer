@@ -1,0 +1,16 @@
+{
+  "versions": 1,
+  "log": [
+    {
+      "stamp": "2026-11-02_095540",
+      "as_of": "2026-11-02",
+      "status": "Gate review",
+      "summary": "First published version."
+    }
+  ],
+  "title": "Weekley 4310 Ram 1500 Rev 4 (T7338/T7339 removed)",
+  "as_of": "2026-11-02",
+  "status": "Gate review",
+  "stamp": "2026-11-02_095540",
+  "emails_redacted": 2
+}

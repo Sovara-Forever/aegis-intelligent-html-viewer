@@ -1,0 +1,209 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://www.weekleychryslerdodgejeep.com/#author-erik-schneeg",
+      "name": "Erik Schneeg",
+      "jobTitle": "Sales Consultant",
+      "worksFor": {
+        "@id": "https://www.weekleychryslerdodgejeep.com#organization"
+      },
+      "description": "29-year Sales Consultant at Weekley Chrysler Dodge Jeep Co in Butler, OH. Expertise in new and used sales, trim comparison, factory build process, and test drives.",
+      "email": "[email redacted]",
+      "sameAs": [
+        "https://www.cars.com/dealers/90682/weekley-chrysler-jeep-dodge-ram/reviews/",
+        "https://www.dealerrater.com/dealer/Weekley-Chrysler-Dodge-Jeep-Ram-review-103547/"
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://www.weekleychryslerdodgejeep.com/#owner-matt-weekley",
+      "name": "Matt Weekley",
+      "jobTitle": "Owner",
+      "worksFor": {
+        "@id": "https://www.weekleychryslerdodgejeep.com#organization"
+      },
+      "email": "[email redacted]"
+    },
+    {
+      "@type": "CollectionPage",
+      "@id": "https://www.weekleychryslerdodgejeep.com/dealer-select-ram-1500-butler-oh/#page",
+      "url": "https://www.weekleychryslerdodgejeep.com/dealer-select-ram-1500-butler-oh/",
+      "name": "Dealer Select: RAM 1500 Trucks in Butler, OH | Weekley CDJR",
+      "description": "3 featured New RAM 1500 trucks in Butler, OH curated by Erik Schneeg, 29-year Sales Consultant at Weekley Chrysler Dodge Jeep. 2026 and 2027 Big Horn and Laramie 4x4 models with Total Selling Prices that include the $398 doc fee.",
+      "inLanguage": "en-US",
+      "publisher": {
+        "@id": "https://www.weekleychryslerdodgejeep.com#organization"
+      },
+      "author": {
+        "@id": "https://www.weekleychryslerdodgejeep.com/#author-erik-schneeg"
+      },
+      "reviewedBy": {
+        "@id": "https://www.weekleychryslerdodgejeep.com/#owner-matt-weekley"
+      },
+      "datePublished": "2026-06-01",
+      "dateModified": "2026-11-02",
+      "mainEntity": {
+        "@id": "https://www.weekleychryslerdodgejeep.com/dealer-select-ram-1500-butler-oh/#list"
+      },
+      "relatedLink": [
+        "https://www.weekleychryslerdodgejeep.com/inventory/new/RAM/1500/",
+        "https://www.weekleychryslerdodgejeep.com/inventory/used/RAM/1500/",
+        "https://www.weekleychryslerdodgejeep.com/inventory/used/RAM/1500-Classic/",
+        "https://www.weekleychryslerdodgejeep.com/inventory/used/RAM/2500/",
+        "https://www.weekleychryslerdodgejeep.com/dealer-select-used-butler-oh/"
+      ]
+    },
+    {
+      "@type": "ItemList",
+      "@id": "https://www.weekleychryslerdodgejeep.com/dealer-select-ram-1500-butler-oh/#list",
+      "name": "Dealer Select: RAM 1500 — Butler, OH",
+      "numberOfItems": 3,
+      "itemListOrder": "https://schema.org/ItemListOrderAscending",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@type": "Vehicle",
+            "@id": "https://www.weekleychryslerdodgejeep.com/inventory/display/new/2026/RAM/1500/1C6SRFFT5TN385606/#vehicle",
+            "name": "2026 RAM 1500 Big Horn 4x4",
+            "sku": "T7368",
+            "brand": {
+              "@type": "Brand",
+              "name": "RAM"
+            },
+            "model": "1500",
+            "modelDate": "2026",
+            "vehicleModelDate": "2026",
+            "vehicleConfiguration": "Big Horn 4x4",
+            "bodyType": "Pickup",
+            "driveWheelConfiguration": "https://schema.org/FourWheelDriveConfiguration",
+            "vehicleEngine": {
+              "@type": "EngineSpecification",
+              "name": "5.7L V8 HEMI MDS VVT eTorque Engine"
+            },
+            "color": "Diamond Black Crystal Pearl Coat",
+            "mileageFromOdometer": {
+              "@type": "QuantitativeValue",
+              "value": 10,
+              "unitCode": "SMI"
+            },
+            "vehicleIdentificationNumber": "1C6SRFFT5TN385606",
+            "image": "https://images.otf3.pixelmotiondemo.com/364x273/KYNIV-20260904191233.jpg",
+            "url": "https://www.weekleychryslerdodgejeep.com/inventory/display/new/2026/RAM/1500/1C6SRFFT5TN385606/",
+            "offers": {
+              "@type": "Offer",
+              "@id": "https://www.weekleychryslerdodgejeep.com/inventory/display/new/2026/RAM/1500/1C6SRFFT5TN385606/#offer",
+              "url": "https://www.weekleychryslerdodgejeep.com/inventory/display/new/2026/RAM/1500/1C6SRFFT5TN385606/",
+              "price": "53239",
+              "priceCurrency": "USD",
+              "availability": "https://schema.org/InStock",
+              "itemCondition": "https://schema.org/NewCondition",
+              "seller": {
+                "@id": "https://www.weekleychryslerdodgejeep.com#organization"
+              },
+              "priceValidUntil": "2026-11-03",
+              "description": "Total Selling Price $53,239 as shown on the vehicle detail page on 2026-11-02 (MSRP $64,370, Doc Fee plus $398, Discounts minus $11,529). Excludes tax, title, and license."
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "@type": "Vehicle",
+            "@id": "https://www.weekleychryslerdodgejeep.com/inventory/display/new/2026/RAM/1500/1C6SRFJT0TN380580/#vehicle",
+            "name": "2026 RAM 1500 Laramie 4x4",
+            "sku": "T7361",
+            "brand": {
+              "@type": "Brand",
+              "name": "RAM"
+            },
+            "model": "1500",
+            "modelDate": "2026",
+            "vehicleModelDate": "2026",
+            "vehicleConfiguration": "Laramie 4x4",
+            "bodyType": "Pickup",
+            "driveWheelConfiguration": "https://schema.org/FourWheelDriveConfiguration",
+            "vehicleEngine": {
+              "@type": "EngineSpecification",
+              "name": "5.7L V8 HEMI MDS VVT eTorque Engine"
+            },
+            "color": "Forged Blue Metallic",
+            "mileageFromOdometer": {
+              "@type": "QuantitativeValue",
+              "value": 10,
+              "unitCode": "SMI"
+            },
+            "vehicleIdentificationNumber": "1C6SRFJT0TN380580",
+            "image": "https://images.otf3.pixelmotiondemo.com/364x273/emWuB-20260823120200.jpg",
+            "url": "https://www.weekleychryslerdodgejeep.com/inventory/display/new/2026/RAM/1500/1C6SRFJT0TN380580/",
+            "offers": {
+              "@type": "Offer",
+              "@id": "https://www.weekleychryslerdodgejeep.com/inventory/display/new/2026/RAM/1500/1C6SRFJT0TN380580/#offer",
+              "url": "https://www.weekleychryslerdodgejeep.com/inventory/display/new/2026/RAM/1500/1C6SRFJT0TN380580/",
+              "price": "58379",
+              "priceCurrency": "USD",
+              "availability": "https://schema.org/InStock",
+              "itemCondition": "https://schema.org/NewCondition",
+              "seller": {
+                "@id": "https://www.weekleychryslerdodgejeep.com#organization"
+              },
+              "priceValidUntil": "2026-11-03",
+              "description": "Total Selling Price $58,379 as shown on the vehicle detail page on 2026-11-02 (MSRP $73,030, Doc Fee plus $398, Discounts minus $15,049). Excludes tax, title, and license."
+            }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "item": {
+            "@type": "Vehicle",
+            "@id": "https://www.weekleychryslerdodgejeep.com/inventory/display/new/2027/RAM/1500/1C6SRFFT6VN584747/#vehicle",
+            "name": "2027 RAM 1500 Big Horn 4x4",
+            "sku": "V7423",
+            "brand": {
+              "@type": "Brand",
+              "name": "RAM"
+            },
+            "model": "1500",
+            "modelDate": "2027",
+            "vehicleModelDate": "2027",
+            "vehicleConfiguration": "Big Horn 4x4",
+            "bodyType": "Pickup",
+            "driveWheelConfiguration": "https://schema.org/FourWheelDriveConfiguration",
+            "vehicleEngine": {
+              "@type": "EngineSpecification",
+              "name": "5.7L V8 HEMI MDS VVT Engine"
+            },
+            "color": "Molten Red Pearl Coat",
+            "mileageFromOdometer": {
+              "@type": "QuantitativeValue",
+              "value": 16,
+              "unitCode": "SMI"
+            },
+            "vehicleIdentificationNumber": "1C6SRFFT6VN584747",
+            "image": "https://images.otf3.pixelmotiondemo.com/364x273/cPdDa-20260921232616.jpeg",
+            "url": "https://www.weekleychryslerdodgejeep.com/inventory/display/new/2027/RAM/1500/1C6SRFFT6VN584747/",
+            "offers": {
+              "@type": "Offer",
+              "@id": "https://www.weekleychryslerdodgejeep.com/inventory/display/new/2027/RAM/1500/1C6SRFFT6VN584747/#offer",
+              "url": "https://www.weekleychryslerdodgejeep.com/inventory/display/new/2027/RAM/1500/1C6SRFFT6VN584747/",
+              "price": "60600",
+              "priceCurrency": "USD",
+              "availability": "https://schema.org/InStock",
+              "itemCondition": "https://schema.org/NewCondition",
+              "seller": {
+                "@id": "https://www.weekleychryslerdodgejeep.com#organization"
+              },
+              "priceValidUntil": "2026-11-03",
+              "description": "Total Selling Price $60,600 as shown on the vehicle detail page on 2026-11-02 (MSRP $67,965, Doc Fee plus $398, Discounts minus $7,763). Excludes tax, title, and license."
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
