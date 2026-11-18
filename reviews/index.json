@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-13",
+  "generated": "2026-11-18",
   "statuses": [
     "draft",
     "tested",
@@ -67,6 +67,26 @@
       "side_by_side": true,
       "live_url": "https://www.weekleychryslerdodgejeep.com/dealer-select-used-butler-oh/",
       "url": "https://sovara-forever.github.io/aegis-intelligent-html-viewer/reviews/2026-10-13-weekley-4440-refresh-ec5c1a/"
+    },
+    {
+      "slug": "2026-11-18-mchugh-bf-tires-12e3af",
+      "client": "McHugh CDJRF",
+      "store": "mchugh",
+      "page_id": "new (draft, not pasted)",
+      "date": "2026-11-18",
+      "status": "tested",
+      "side_by_side": false,
+      "url": "https://sovara-forever.github.io/aegis-intelligent-html-viewer/reviews/2026-11-18-mchugh-bf-tires-12e3af/"
+    },
+    {
+      "slug": "2026-11-18-mchugh-bf-guide-bd9a68",
+      "client": "McHugh CDJRF",
+      "store": "mchugh",
+      "page_id": "new (draft, not pasted)",
+      "date": "2026-11-18",
+      "status": "tested",
+      "side_by_side": false,
+      "url": "https://sovara-forever.github.io/aegis-intelligent-html-viewer/reviews/2026-11-18-mchugh-bf-guide-bd9a68/"
     }
   ]
 }
