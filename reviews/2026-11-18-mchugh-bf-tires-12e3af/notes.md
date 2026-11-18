@@ -6,8 +6,8 @@
 - Slug: `black-friday-tire-deals-zanesville-oh`
 
 ## Checks
-- Gate: PASS, 11 of 11 (GATE-FINAL-1117, 11/17/2026 4:25 PM ET)
-- Live check 11/17: hours match hours page, phone 740-453-0663, 24 of 24 McHugh links 200
+- Gate: PASS, 11 of 11 checks (GATE-FINAL-1117 checks re-run after re-date, Wed 11/18/2026)
+- Live check (11/17): hours match hours page, phone 740-453-0663, 24 of 24 McHugh links 200
 - No prices, APRs or rebates in the copy
 
 ## Still open
